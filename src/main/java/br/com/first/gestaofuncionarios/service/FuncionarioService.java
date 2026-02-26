@@ -1,5 +1,6 @@
 package br.com.first.gestaofuncionarios.service;
 
+import br.com.first.gestaofuncionarios.api.dto.FuncionarioCreateRequest;
 import br.com.first.gestaofuncionarios.domain.Funcionario;
 import br.com.first.gestaofuncionarios.exception.FuncionarioDuplicadoException;
 import br.com.first.gestaofuncionarios.exception.FuncionarioNaoEncontradoException;

@@ -36,17 +36,29 @@ public class APIException extends RuntimeException {
     }
 
     public static APIException build(HttpStatus statusException, String message, String description) {
-        return new APIException(statusException, message, description, null);
+        return new APIException(
+                statusException,
+                message,
+                description,
+                null);
     }
 
     public static APIException build(HttpStatus statusException, String message, Exception e) {
         log.error("APIException: {} - {}", statusException, message, e);
-        return new APIException(statusException, message, null, e);
+        return new APIException(
+                statusException,
+                message,
+                null,
+                e);
     }
 
     public static APIException build(HttpStatus statusException, String message, String description, Exception e) {
         log.error("APIException {} - {} | Description: {}", statusException, message, description, e);
-        return new APIException(statusException, message, description, e);
+        return new APIException(
+                statusException,
+                message,
+                description,
+                e);
     }
 
     private static String getMessageCause(Exception e) {
