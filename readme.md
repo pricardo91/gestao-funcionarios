@@ -170,7 +170,7 @@ Content-Type: application/json
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/gestao-funcionarios.git
+git clone https://github.com/pricardo91/gestao-funcionarios.git
 
 # Acesse o diretório
 cd gestao-funcionarios
