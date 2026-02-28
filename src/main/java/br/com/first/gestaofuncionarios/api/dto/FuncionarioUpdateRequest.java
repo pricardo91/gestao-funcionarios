@@ -6,6 +6,7 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+@Schema(description = "Objeto de requisição para atualização de funcionário")
 @Data
 public class FuncionarioUpdateRequest {
 

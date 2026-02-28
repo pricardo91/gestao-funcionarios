@@ -25,7 +25,7 @@ public class Funcionario {
 
     @NotNull(message = "O salário do funcionário é obrigatório")
     @Positive(message = "O salário deve ser positivo")
-    @Min(value = 1621, message = "O valor não atinge o salário mínimo vigênte no Brasil (R$1.621,00)")
+    @DecimalMin(value = "1621.00", message = "O valor não atinge o salário mínimo vigênte no Brasil (R$1.621,00)")
     private BigDecimal salario;
 
     @NotBlank(message = "Telefone é obrigatório")
