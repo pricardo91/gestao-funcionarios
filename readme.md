@@ -11,7 +11,7 @@ API RESTful desenvolvida em Java com Spring Boot para gerenciamento de funcioná
 - [Arquitetura](#arquitetura)
 - [Estrutura de Pacotes](#estrutura-de-pacotes)
 - [Endpoints](#endpoints)
-- [Como Executar](#como-executar)
+- [Como Executar](#-como-executar)
 - [Documentação da API](#documentação-da-api)
 - [Testes](#testes)
 - [Decisões Técnicas](#decisões-técnicas)
